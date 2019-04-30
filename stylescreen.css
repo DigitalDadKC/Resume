@@ -41,6 +41,35 @@ body {
 	padding: 50px;
 }
 
+.fas {
+	background: rgb(68,114,196);
+	color: white;
+	width: 25px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.fab {
+	background: rgb(68,114,196);
+	color: white;
+	width: 25px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#resumeicon img {
+	color: white;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	padding-bottom: 10px;
+	vertical-align: middle;
+}
+
 @keyframes dash {
 	to {
 		stroke-dashoffset: 1000;
@@ -336,16 +365,6 @@ div.credtab button.active {
 #why img {
 	max-height: 50px;
 	vertical-align: middle;
-}
-
-.fa {
-	background: rgb(68,114,196);
-	color: white;
-	width: 15px;
-	padding: 15px;
-	text-decoration: none;
-	text-align: center;
-	border-radius: 50%;
 }
 
 @media all and (max-width: 768px) {
